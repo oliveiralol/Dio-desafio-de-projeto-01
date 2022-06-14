@@ -1,0 +1,11 @@
+Acompanhando introdução de html até semântica #2 14/06/2022
+
+<section> - Representa uma seção genérica de conteúdos, como uma lista de artigos.
+
+<header> - Pode ser o cabeçalho da página ou de parte de uma página, como uma <section> por exemplo.
+
+<article> - Representa um conteúdo relevante dentro da página, como o artigo de um blog. 
+
+<aside> - Representa um conteúdo relacionado ao principal da página, como biografia do autor, links relacionados e geralmente são representados por uma barra lateral.
+
+<h1> - <h6> - Representam a importância de um título dentro de uma página, lembrando que só pode ter um h1 por página.
