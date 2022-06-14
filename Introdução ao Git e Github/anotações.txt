@@ -1,0 +1,24 @@
+- Git é um software de versionamento de código, ou seja, permite a existência, edição, contribuição dos arquivos sem que 
+corra o risco das alterações serem sobrescritas. Pode ser baixado em : https://git-scm.com/downloads
+
+Ele nos fornece segurança através da encriptação de arquivos/diretórios. O gitbash funciona como um terminal extendido 
+que nos permite trabalhar os códigos e organizar nossas branches no servidor local e, eventualmente, no servidor externo(nu
+vem)
+
+Comandos úteis:
+- Comando cd serve para navegar entre os diretórios. Podemos acessá-los com cd pastadedestino/outrapasta/, navegar entre
+os níveis utilizando .(pontos).
+- Com o comando mkdir, criamos um diretório(pasta)
+- Com o comando echo, criamos um arquivo.
+- O comando ls nos permite verificar o conteúdo do diretório/pasta
+- Os comandos rm/rmdir/del/rf estão relacionados a remoção de arquivos/diretórios.
+
+No Git, utilizamos ctrl+L para limpar a tela. Utilizamos a tecla TAB para como uma forma de preenchimento automático que
+nos auxilia a agilizar o processo de código.   
+
+O comando git init inicia um .git num diretório específico. A partir daí, podemos trabalhar na nossa branch.
+
+-GitHUB seria o servidor externo, a nuvem, na qual podemos criar repositórios, versionar nossos códigos e fazer a interação com
+nossa máquina local. Através das chaves SSH e tokens, podemos criar uma conexão entre as duas máquinas. A primeira(SSH mais segura e encriptada, a segunda(tokens) mais vulnerável e menos recomendada.
+
+Ao fazer alterações nos arquivos locais, devemos utilizar o git add .( ou *) para mover essa alteração para o estado de "staged", para que possamos commitar com o git commit -m "" mais tarde. O comando git status nos permite verificar se há algo que precise ser feito na nossa branch, se há possíveis conflitos, entre outros. O comando git push nos permite enviar os commits do servidor local para o github e o git pull faz o caminho inverso. Através do comando git clone, podemos clonar um repositório existente no GitHuB para que possamos trabalhar na nossa máquina.
