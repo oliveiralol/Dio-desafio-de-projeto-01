@@ -1,0 +1,2 @@
+<h2> Flex Flow</h2>
+    É um atalho para as propriedas *flex-direction* e *flex-wrap*. Porém, seu uso não é tão comum, visto que, quando mudamos o *flex-direction* para **column**, mantemos o padrão do *flex-wrap* que é o **nowrap**.
